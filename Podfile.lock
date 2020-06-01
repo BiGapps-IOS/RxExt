@@ -1,0 +1,42 @@
+PODS:
+  - RxAnimated (0.8.1):
+    - RxAnimated/Core (= 0.8.1)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxAnimated/Core (0.8.1):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - RxAnimated (from `https://github.com/RxSwiftCommunity/RxAnimated.git`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxAnimated:
+    :git: https://github.com/RxSwiftCommunity/RxAnimated.git
+
+CHECKOUT OPTIONS:
+  RxAnimated:
+    :commit: eb9fe8dbb022f6f75503ab5f5b2719fd692fd52c
+    :git: https://github.com/RxSwiftCommunity/RxAnimated.git
+
+SPEC CHECKSUMS:
+  RxAnimated: 5181b7b8369e8cb7ecd66d91110d84f1bb0edb64
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: dd7ad5657f5db4fddaa29cbf977ee51a053ef154
+
+COCOAPODS: 1.9.3
