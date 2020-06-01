@@ -19,6 +19,7 @@ spec.author       = { "Denis Windover" => "denis@bigapps.co.il" }
 spec.platform     = :ios, "11.0"
 spec.source       = { :git => "https://github.com/BiGapps-IOS/RxExt.git", :tag => "0.1.0" }
 spec.source_files =  "RxExt/**/*"
+spec.exclude_files = "RxExt/RxExt/*.plist"
 
 spec.requires_arc = true
 spec.swift_version= '5.0'
